@@ -36,19 +36,19 @@ Endpoints:
 
 1. Listownie repozytorium danego użytkownika z liczbą gwaizdek:
 
-http://127.0.0.1:8000/git-api/repositories/<nazwa użytkownika>
+GET http://127.0.0.1:8000/git-api/repositories/<nazwa użytkownika>
 
 np. http://127.0.0.1:8000/git-api/repositories/allegro
 
 2. Obliczanie sumy gwiazdek danego repozytorium
 
-http://127.0.0.1:8000/git-api/repositories/<nazwa użytkownika>/sum
+GET http://127.0.0.1:8000/git-api/repositories/<nazwa użytkownika>/sum
 
 np. http://127.0.0.1:8000/git-api/repositories/allegro/sum
 
 3. Listowanie języków wykorzystanych przez danego użytkownika wraz z rozmiarem w bajtach
 
-http://127.0.0.1:8000/git-api/repositories/<nazwa użytkownika>/languages
+GET http://127.0.0.1:8000/git-api/repositories/<nazwa użytkownika>/languages
 
 W typ przypadku należy być ostrożnym z wyborem użytkownika, ponieważ dla nieautoryzowanego 
 użytkownika maksymalna liczba zapytań wysłana w ciągu godziny do GitHub API wynosi 60.
