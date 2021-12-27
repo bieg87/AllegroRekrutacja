@@ -56,3 +56,5 @@ Zapytania o języki programowania wysyłane są do każdego repozytorium oddziel
 użytkownik będzie miał więcej niż 60 repozytoriów dostęp do GitHub API zablokuje się. 
 
 np. http://127.0.0.1:8000/git-api/repositories/bieg87/languages
+
+Program nie jest pokryty testami oraz nie zawiera interfejsu użytkownika, ponieważ nie było tego w wymaganiach zadania.
