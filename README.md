@@ -57,4 +57,6 @@ użytkownik będzie miał więcej niż 60 repozytoriów dostęp do GitHub API za
 
 np. http://127.0.0.1:8000/git-api/repositories/bieg87/languages
 
-Program nie jest pokryty testami oraz nie zawiera interfejsu użytkownika, ponieważ nie było tego w wymaganiach zadania.
+Program nie jest pokryty testami oraz nie zawiera interfejsu użytkownika, ponieważ nie było tego w wymaganiach zadania. 
+W repozytorium na GitHub upublicznio klucz, co w warunkach produkcyjnych jest niedopuszczalne. Zrobiono to tylko w celu 
+uproszczenia uruchomienia.
