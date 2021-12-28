@@ -8,11 +8,11 @@ Wykorzystano framework Django.
 
 Na początku należy zainstalować program git i python 3.8.5
 
-Następnie trzeba sklonować repozytorium:
+Następnie trzeba uruchmić wiersz poleceń i w nowym katalogu sklonować repozytorium:
 
 git clone https://github.com/bieg87/AllegroRekrutacja.git
 
-W dalszej kolejności należy wejść do AllegroRekrutacja i stworzyć wirtualne środowisko za pomocą programu venv:
+W dalszej kolejności należy wejść do katalogu AllegroRekrutacja i stworzyć wirtualne środowisko za pomocą programu venv:
 
 python -m venv ./env
 
@@ -56,6 +56,8 @@ Zapytania o języki programowania wysyłane są do każdego repozytorium oddziel
 użytkownik będzie miał więcej niż 60 repozytoriów dostęp do GitHub API zablokuje się. 
 
 np. http://127.0.0.1:8000/git-api/repositories/bieg87/languages
+
+DODATKOWE UWAGI:
 
 Program nie jest pokryty testami oraz nie zawiera interfejsu użytkownika, ponieważ nie było tego w wymaganiach zadania. 
 W repozytorium na GitHub upublicznio klucz, co w warunkach produkcyjnych jest niedopuszczalne. Zrobiono to tylko w celu 
